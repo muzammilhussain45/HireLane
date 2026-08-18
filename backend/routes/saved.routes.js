@@ -1,6 +1,6 @@
 import express from "express";
 import { toggleSaveJob, toggleSaveQuestion, getSavedItems } from "../controllers/saved.controller.js";
-import { authMiddleware } from "../middleware/authMiddleware.js";
+import { authMiddleware } from "../middlewares/authMiddleware.js";
 
 
 

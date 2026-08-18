@@ -1,5 +1,5 @@
 import express from "express";
-import { authMiddleware, authorize } from "../middleware/authMiddleware.js";
+import { authMiddleware, authorize } from "../middlewares/authMiddleware.js";
 import { applyjob, getApplicants, getUserApplications } from "../controllers/application.controller.js";
 
 

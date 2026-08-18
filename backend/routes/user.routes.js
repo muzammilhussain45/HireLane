@@ -1,7 +1,7 @@
 import express from "express";
-import { authMiddleware, authorize } from "../middleware/authMiddleware.js";
+import { authMiddleware, authorize } from "../middlewares/authMiddleware.js";
 import { getProfile, getResume, updateProfile } from "../controllers/user.controller.js";
-import { upload } from "../middleware/uploadMiddleware.js";
+import { upload } from "../middlewares/uploadMiddleware.js";
 
 
 

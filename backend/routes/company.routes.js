@@ -1,7 +1,7 @@
 import express from "express";
 import { addCompany, deleteCompany, getCompanies } from "../controllers/company.controller.js";
-import { authMiddleware, authorize } from "../middleware/authMiddleware.js";
-import { upload } from "../middleware/uploadMiddleware.js";
+import { authMiddleware, authorize } from "../middlewares/authMiddleware.js";
+import { upload } from "../middlewares/uploadMiddleware.js";
 
 
 const companyRouter = express.Router();

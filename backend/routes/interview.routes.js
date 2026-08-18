@@ -1,7 +1,7 @@
 import express from "express";
 import { addInterviewCompany, addInterviewRole, deleteInterviewCompany, deleteInterviewRole, getInterviewCompanies, getInterviewQuestionsByCompany, getInterviewRoles, getQuestionsByRole, updateInterviewCompany, updateInterviewRole } from "../controllers/interview.controller.js";
-import { authMiddleware, authorize } from "../middleware/authMiddleware.js";
-import { upload } from "../middleware/uploadMiddleware.js";
+import { authMiddleware, authorize } from "../middlewares/authMiddleware.js";
+import { upload } from "../middlewares/uploadMiddleware.js";
 
 const interviewRouter = express.Router();
 

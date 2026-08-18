@@ -2,9 +2,9 @@ import express from "express";
 import {createJob, closeJob, deleteJob, getDashboardStats, getJobsByAdmin, updateJob, getAllJobs, getJobById } from "../controllers/job.controller.js";
 
 
-import { authMiddleware, authorize } from "../middleware/authMiddleware.js";
+import { authMiddleware, authorize } from "../middlewares/authMiddleware.js";
 
-import {upload} from "../middleware/uploadMiddleware.js";
+import {upload} from "../middlewares/uploadMiddleware.js";
 
 
 const jobRouter = express.Router();
