@@ -22,7 +22,8 @@ import {
 } from "lucide-react";
 import { addJobsPageStyles as s } from "../assets/dummyStyles";
 
-const BACKEND_URL = "http://localhost:5000";
+import BACKEND_URL from '../config'
+
 
 /* ---------------- small toast component ---------------- */
 const Toast = ({ message, type, onClose }) => {

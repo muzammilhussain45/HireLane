@@ -14,8 +14,8 @@ import {
   X,
 } from "lucide-react";
 import { dashboardStyles as s, statColors } from "../assets/dummyStyles";
+import BACKEND_URL from '../config'
 
-const BACKEND_URL = "http://localhost:5000";
 
 const Dashboard = () => {
   const [companyFilter, setCompanyFilter] = useState("");

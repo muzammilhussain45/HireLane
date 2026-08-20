@@ -4,7 +4,8 @@ import axios from 'axios'
 import { Mail, Lock, Eye, EyeOff, LogIn, CheckCircle, AlertCircle, X } from 'lucide-react'
 import { loginPageStyles as s } from '../assets/dummyStyles'
 
-const BACKEND_URL = 'http://localhost:5000'
+import BACKEND_URL from '../config'
+
 
 const LoginPage = () => {
   const [email, setEmail] = useState('')

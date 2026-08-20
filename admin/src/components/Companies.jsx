@@ -4,8 +4,7 @@ import {
   Upload, Link2, X, Trash2, Loader2, CheckCircle, XCircle
 } from 'lucide-react'
 import { companiesPageStyles as s } from '../assets/dummyStyles'
-
-const BACKEND_URL = 'http://localhost:5000'
+import BACKEND_URL from '../config'
 
 const Companies = () => {
   const [logoFile, setLogoFile] = useState(null);
