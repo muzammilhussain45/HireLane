@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <!-- Gradients -->
+    <linearGradient id="blueGradLeft" x1="30%" y1="10%" x2="70%" y2="90%">
+      <stop offset="0%" stop-color="#2563eb"/>
+      <stop offset="40%" stop-color="#1d4ed8"/>
+      <stop offset="85%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#070a12"/>
+    </linearGradient>
+
+    <linearGradient id="blueGradRight" x1="20%" y1="90%" x2="80%" y2="10%">
+      <stop offset="0%" stop-color="#2563eb"/>
+      <stop offset="50%" stop-color="#1e40af"/>
+      <stop offset="100%" stop-color="#0b132b"/>
+    </linearGradient>
+
+    <linearGradient id="darkSwooshGrad" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0b132b"/>
+      <stop offset="60%" stop-color="#0a192f"/>
+      <stop offset="100%" stop-color="#060c1a"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Left Stem - Background Blue Gradient Base -->
+  <path d="M 238,122 
+           C 200,120 155,160 120,225 
+           C 95,270 82,295 82,295 
+           C 96,302 110,312 115,322 
+           C 115,340 110,380 110,425 
+           C 135,425 160,390 180,340 
+           C 205,275 220,205 238,122 Z" 
+        fill="url(#blueGradLeft)" />
+
+  <!-- Left Stem - Dark Profile Overlay -->
+  <path d="M 238,122 
+           C 208,121 170,145 135,200 
+           C 105,248 82,295 82,295 
+           C 96,302 110,312 115,322 
+           C 115,340 110,380 110,425 
+           C 120,425 132,410 145,380 
+           C 125,320 140,230 185,165 
+           C 202,140 220,128 238,122 Z" 
+        fill="#070d18" />
+
+  <!-- Right Stem - Blue Base -->
+  <path d="M 370,122 
+           C 310,145 285,210 282,280 
+           C 280,335 282,385 282,425 
+           C 315,425 350,380 375,300 
+           C 382,275 385,230 385,190 
+           L 370,122 Z" 
+        fill="url(#blueGradRight)" />
+
+  <!-- Central Dark Ribbon / Swoosh -->
+  <path d="M 110,425 
+           C 125,360 150,295 210,260 
+           C 260,232 300,215 330,175 
+           C 350,150 365,130 385,120 
+           C 382,165 372,210 338,245 
+           C 295,290 238,290 190,320 
+           C 145,348 122,382 110,425 Z" 
+        fill="url(#darkSwooshGrad)" />
+
+  <!-- Arrow Top Point (Right Side) -->
+  <path d="M 385,120 
+           L 290,148 
+           C 315,160 330,175 330,175 
+           C 350,150 365,130 385,120 Z" 
+        fill="#070d18" />
+
+  <!-- White Separator Gap Trim (Refining Swoosh Curve) -->
+  <path d="M 120,322 
+           C 145,260 180,210 238,180 
+           C 285,155 335,138 385,120 
+           C 370,135 350,158 330,175 
+           C 300,215 260,232 210,260 
+           C 162,288 135,335 120,380 
+           C 117,358 118,338 120,322 Z" 
+        fill="none" />
+
+  <!-- Teal Dot -->
+  <circle cx="238" cy="212" r="16" fill="#14b8a6" />
+</svg>
