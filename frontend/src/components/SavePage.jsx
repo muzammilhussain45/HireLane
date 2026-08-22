@@ -17,10 +17,10 @@ import {
   X,
   Eye,
 } from "lucide-react";
-import Toast from "../Toast/Toast";
-import BACKEND_URL from "../../config";
+import Toast from "../Toast";
+import BACKEND_URL from "../config";
 
-import { savePageStyles as s } from "../../assets/dummyStyles";
+import { savePageStyles as s } from "../assets/dummyStyles";
 
 const STORAGE_USER_KEY = "hirelane_user";
 const STORAGE_JOBS_KEY = "savedJobs";
