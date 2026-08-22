@@ -1,7 +1,7 @@
 import React from  'react'
-import Footer from "../components/Footer/Footer"
-import JobDetailPage from "../components/JobDetailsPage/JobDetailsPage"
-import Navbar from "../components/Navbar/Navbar"
+import Footer from "../components/Footer"
+import JobDetailPage from "../components/JobDetailPage"
+import Navbar from "../components/Navbar"
 
 
 

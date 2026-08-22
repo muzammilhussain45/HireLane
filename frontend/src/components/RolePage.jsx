@@ -10,7 +10,7 @@ import {
   Dot,
   X,
 } from "lucide-react";
-import Toast from "../Toast/Toast";
+import Toast from "./Toast";
 import { rolePageStyles as s } from "../assets/dummyStyles";
 import BACKEND_URL from "../config";
 

@@ -17,7 +17,7 @@ import {
   X,
   Eye,
 } from "lucide-react";
-import Toast from "../Toast";
+import Toast from "./Toast";
 import BACKEND_URL from "../config";
 
 import { savePageStyles as s } from "../assets/dummyStyles";

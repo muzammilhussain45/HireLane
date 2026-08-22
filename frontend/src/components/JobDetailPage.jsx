@@ -12,7 +12,7 @@ import {
   Bookmark,
   X,
 } from "lucide-react";
-import Toast from "../Toast/Toast";
+import Toast from "./Toast";
 import { jobDetailPageStyles as s } from "../assets/dummyStyles";
 import BACKEND_URL from "../config";
 
